@@ -179,8 +179,8 @@ header ul li a:hover{
 
 /* two */
 #two{
-    height: 100vh;
     background: var(--bg);
+    margin-bottom: 5rem;
 }
 #two h2{
     padding-top: 13vh;
@@ -654,8 +654,5 @@ header ul li a:hover{
     }
     .div-about  img{
         width: 200px;
-    }
-    #three{
-        margin-top: 15rem;
     }
 }
