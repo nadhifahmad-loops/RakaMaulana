@@ -97,7 +97,7 @@ header ul li a:hover{
 .s-container{
     padding-top: 1rem;
     min-height: 100vh;
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -645,7 +645,10 @@ header ul li a:hover{
         font-size: 2rem;
     }
 }
-@media only screen and (max-width:320px){
+@media only screen and (max-width:370px){
+    .subtitle{
+        font-size: 15px;
+    }
     .tittle{
         font-size: 15px;
     }
@@ -654,5 +657,10 @@ header ul li a:hover{
     }
     .div-about  img{
         width: 200px;
+    }
+    @media only screen and (max-width: 310px){
+        .tittle{
+            font-size: 13px;
+        }
     }
 }
