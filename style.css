@@ -568,9 +568,10 @@ header ul li a:hover{
         transform: translateX(-50%);
     }
     header ul li {
-        justify-content: center;
         text-align: center;
-        display: flex;
+    }
+    header ul li a{
+        width: 100%;
     }
     .tittle{
         font-size: 1.2rem;
